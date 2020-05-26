@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         LSS Kreisgrenzen (DE only)
 // @namespace    http://tampermonkey.net/
-// @version      2.0.1
+// @version      1.0
 // @description  Fügt Kreisgrenzen auf der Karte ein.
-// @author       Jalibu
+// @author       TheSebik
 // @match        https://www.leitstellenspiel.de/
 // @grant        none
 // ==/UserScript==
@@ -28,7 +28,7 @@
         $('#kreise-modal').show();
     });
 
-    $.getJSON( "https://raw.githubusercontent.com/jalibu/LSHeat/master/kreise.json", function( data ) {
+    $.getJSON( "https://raw.githubusercontent.com/TheSebik/DispoPlus/master/kreise.json", function( data ) {
         let response = [];
         let state;
         let bezirk;
