@@ -28,7 +28,7 @@
         $('#kreise-modal').show();
     });
 
-    $.getJSON( "https://raw.githubusercontent.com/TheSebik/DispoPlus/master/kreise.json", function( data ) {
+    $.getJSON( "https://raw.githubusercontent.com/TheSebik/DispoPlus/master/kreise2.json", function( data ) {
         let response = [];
         let state;
         let bezirk;
